@@ -174,7 +174,7 @@ def Key_Stats(gather="Total Debt/Equity (mrq)"):
         except Exception as e:
             print(str(e))
 
-   plt.show()
+            plt.show()
           
     save = gather.replace(' ','').replace(')','').replace('(','').replace('/','')+('.csv')
     print(save)
